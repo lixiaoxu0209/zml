@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 10rem;
+    min-width: 320px;
+    max-width: 750px;
+    margin: 0 auto;
+    // background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 32px!important;
+    }
+}
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    line-height: 0;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+div {
+    box-sizing: border-box;
+}
+ul,
+ol {
+    list-style: none;
+}
+
+.header_store {
+    width: 10rem;
+    height: 4.666667rem;
+    background: url(../images/shangpu.png);
+    background-size: 100% 100%;
+    .smallnav_store {
+        width: 100%;
+        height: 1.2rem;
+
+        a {
+            position: absolute;
+            top: .2rem;
+            width: .533333rem;
+            height: .533333rem;
+        }
+
+        a.goback_store {
+            left: .506667rem;
+            background: url(../images/get.png);
+            background-size: 100%;
+        }
+        a.more_store{
+            right: .506667rem;
+            background: url(../images/more.png);
+            background-size: 100% 100%;
+        }
+    }
+
+    .nav_name {
+        position: relative;
+        width: 9.066667rem;
+        height: 2.533333rem;
+        background-color: rgba(53,82,225,.4);
+        margin-left: .466667rem;
+        border-radius: .4rem;
+        overflow: hidden;
+
+        .log_store {
+            position: absolute;
+            top: .6rem;
+            left: .333333rem;
+            width: 1.026667rem;
+            height: 1.026667rem;
+            border-radius: .133333rem;
+            overflow: hidden;
+            background: url(../images/logo.store_03.png);
+            background-size: 100%;
+            // background-color: purple;
+        }
+
+        p {
+            position: absolute;
+            top: .7rem;
+            left: 1.6rem;
+            width: 2rem;
+            height: .466667rem;
+            font-size: .266667rem;
+        }
+
+        span {
+            position: absolute;
+            top: 1.133333rem;
+            left: 1.6rem;
+            // width: 1.866667rem;
+            height: .4rem;
+            font-size: .293333rem;
+            color: #a5a5a5;
+        }
+
+        a.get_store {
+            position: absolute;
+            top: .4rem;
+            right: .8rem;
+            width: .666667rem;
+            height: .4rem;
+            font-size: .32rem;
+            color: #333333;
+        }
+        
+        a.attention_store{
+            position: absolute;
+            top: 1.333333rem;
+            right: .6rem;
+            width: 1.466667rem;
+            height: .64rem;
+            background-color: #fddf00;
+            border-radius: .32rem;
+            
+
+            em {
+                position: absolute;
+                top: .16rem;
+                right: .333333rem;
+                font-size: .293333rem;
+                font-style: normal;
+
+            }
+
+            i {
+                position: absolute;
+                top: .2rem;
+                left: .266667rem;
+                width: .24rem;
+                height: .226667rem;
+                background: url(../images/Group\ 11.png);
+                background-size: 100%;
+            }
+        }
+    }
+}
+//header_store
+
+.nav_store {
+    width: 10rem;
+    height: 2rem;
+    padding-left: .466667rem;
+
+    ul {
+        li {
+            float: left;
+            width: 2.8rem;
+            height: 1.2rem;
+            background-color: #fddf00;
+            margin-top: .4rem;
+            margin-right: .333333rem;
+            border-radius: .2rem;
+            text-align: center;
+            line-height: 1.2rem;
+
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                font-size: .346667rem;
+            }
+
+        }
+
+        .current {
+            background-color: #003a9b;
+            
+            a {
+                color: #fff;
+            }
+
+        }
+    }
+
+
+}
+//nav_store
+
+.store_commodity {
+    padding-left: .533333rem;
+
+    .store_commodity_title {
+        font-size: .586667rem;
+        font-weight: 700;
+        color: #333;
+        padding-bottom: .533333rem;
+    }
+
+    .commodity_store_any {
+        ul {
+            li:nth-child(3){
+                margin-right: 0;
+             }
+     
+             li {
+                 float: left;
+                 width: 2.8rem;
+                //  height: 4.133333rem;
+                 border: 1px solid #e7e7e7;
+                 border-radius: .266667rem;
+                 overflow: hidden;
+                 margin-right: .266667rem;
+     
+                 section {
+                     width: 100%;
+                     height: 1.866667rem;
+     
+                     img {
+                         width: 100%;
+                         height: 100%;
+                     }
+                 }
+     
+                 .commodity_store_box {
+                     position: relative;
+                     width: 100%;
+                     height: 2.266667rem;
+                     padding-top: .266667rem;
+                     padding-left: .2rem;
+     
+     
+                     .state_picture {
+                         width: .373333rem;
+                         height: .266667rem;
+                         background:url(../images/riben.png);
+                         background-size: 100% 100%;
+                     }
+     
+                     .commodity_store_text {
+                         margin-top: .16rem;
+                         width: 100%;
+                         height: 100%;
+                         
+                         p {
+                             font-size: .293333rem;
+     
+                         }
+     
+                         em {
+                             position: absolute;
+                             bottom: .32rem;
+                             font-style: normal;
+                             font-size: .293333rem;
+                             color: #e4007b;
+                         }
+     
+                         .go_ico {
+                             position: absolute;
+                             right: .32rem;
+                             bottom: .2rem;
+                             width: .666667rem;
+                             height: .533333rem;
+                             background: url(../images/shopcar.png);
+                             background-size: 100% 100%;
+                         }
+                     }
+                 }
+             }
+         }
+    }
+    //ul
+
+    ol {
+
+        li:nth-child(2n){
+            margin-right: 0;
+        }
+
+        li {
+            float: left;
+            width: 4.266667rem;
+            border: 1px solid #e7e7e7;
+            border-radius: .333333rem;
+            margin-top: .266667rem;
+            margin-right: .333333rem;
+
+            section {
+                width: 100%;
+                height: 3.2rem;
+                background-color: #f9f9fb;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .commodity_store_box {
+                position: relative;
+                width: 100%;
+                height: 2.266667rem;
+                padding-top: .4rem;
+                padding-left: .333333rem;
+
+
+                .state_picture {
+                    width: .373333rem;
+                    height: .266667rem;
+                    margin-bottom: .2rem;
+                    background:url(../images/riben.png);
+                    background-size: 100% 100%;
+                }
+
+                p {
+                    font-size: .266667rem;
+                }
+                
+                em {
+                    position: absolute;
+                    bottom: .4rem;
+                    font-size: .293333rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    color: #e4007b;
+                }
+
+                .go_ico {
+                    position: absolute;
+                    right: .4rem;
+                    bottom: .333333rem;
+                    width: .666667rem;
+                    height: .533333rem;
+                    background: url(../images/shopcar.png);
+                    background-size: 100% 100%;
+                }
+
+            }
+        }
+    }
+}
+//store_commodity
+
+#new_store_commodity{
+    display: none;
+}

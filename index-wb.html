@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/wb_index.css">
+
+    <link rel="stylesheet" href="css/wb_caidan2.css">
+
+
+
+    <script src="js/flexible.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wb_index.js"></script>
+
+</head>
+
+<body>
+
+    <div class="wb_header ">
+        <a href="order.html" class="wb_back "></a>
+        <a href="# " class="wb_edit ">编辑</a>
+    </div>
+    <div class="wb_title ">
+        <a href="# " class="wb_caidan ">拆单</a>
+        <span class="wb_name ">写真を撮る</span>
+    </div>
+    <div class="wb_content ">
+        <div class="wb_content_top ">
+            <!-- 全选 -->
+            <div class="wb_t_checkbox ">
+                <a href="# " class="wb_checkall "></a>
+                <div class="wb_checkall2 ">全选</div>
+
+
+            </div>
+            <!-- 总计 -->
+            <div class="wb_toolbar_right ">
+                <!-- <div class="wb_amount_sum ">已经选<em>1</em>件商品</div> -->
+                <div class="wb_price_sum ">合计： <em>￥13424.21</em></div>
+            </div>
+            <!-- 生成拆单按钮 -->
+            <div class="wb_btn_area" name="popBox" value="弹出框" onclick="popBox()">生成拆单</div>
+        </div>
+        <div class="wb_content_tip ">拆单以后可以可分享给微信好友哦~</div>
+        <div class="wb_content_search ">
+            <form action=" ">
+                <input type="search " value="请输入拆单名称 ">
+            </form>
+        </div>
+        <div class="wb_content_cars ">
+
+            <div class="wb_content_top ">
+                <div class="wb_content_con ">
+                    <span class="wb_checked "></span>
+                    <span class="wb_storys ">Dior专营店</span>
+                    <span class="wb_money ">领劵</span>
+                </div>
+            </div>
+
+
+
+
+            <div class="wb_collect_content ">
+                <div class="wb_collect_list " id="wb_list ">
+                    <div class="wb_checked "></div>
+                    <div class="wb_collect_img ">
+                    </div>
+                    <div class="wb_collect_2 ">
+                        <div class="h5 "></div>
+                        <div class="p ">HITACHICM-N400美容仪</div>
+                        <div class="wb_price" id="wb_price_price">¥888</div>
+
+                    </div>
+                    <div class="wb_countbox">
+                        <div id="wb_countbox_left">-
+                        </div>
+                        <div id="wb_countbox_center">5</div>
+                        <div id="wb_countbox_right">+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 弹出框部分start -->
+    <div id="popLayer"></div>
+    <div id="popBox">
+        <div class="wb_tcbox" style=" margin: 0 auto; width: 8rem;height: 5.466667rem;border: 1px solid #fff;">
+            <div style=" transform: translateY(1.44rem); font-size: .533333rem;text-align: center;font-weight: 700; ">已生成拆单
+            </div>
+
+            <div style="transform: translateY(1.6rem);font-size: .32rem;text-align: center; ">赶快分享给好友吧～</div>
+            <ul style="transform: translateY(1.4rem) ">
+                <li style="float:left;margin: 0 .4rem; width: .746667rem; height:.746667rem; background: url(images/weixin.png);background-size: .746667rem .746667rem; "></li>
+                <li style="float:left;margin: 0 .4rem;width: .746667rem; height:.746667rem; background: url(images/weixin.png);background-size: .746667rem .746667rem; "></li>
+                <li style="float:left;margin: 0 .4rem;width: .746667rem; height:.746667rem; background: url(images/weixin.png);background-size: .746667rem .746667rem; "></li>
+                <li style="float:left;margin: 0 .4rem;width: .746667rem; height:.746667rem; background: url(images/weixin.png);background-size: .746667rem .746667rem; "></li>
+            </ul>
+            <div class="close" onclick="closeBox()" style="position: absolute; top: .306667rem;right: .333333rem; width: .586667rem; height: .586667rem; background: url(images/Group12.png) no-repeat;background-size: .586667rem .586667rem;">
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- 弹出框部分end -->
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+body {
+    min-width: 320px;
+    max-width: 750px;
+    /* flexible 给我们划分了 10 等份 */
+    width: 10rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gt_gj a {
+    width: .666667rem;
+    display: block;
+    font-family: 'icomoon';
+    font-size: .8rem;
+    line-height: .666667rem;
+    transform: rotate(180deg);
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-focus: none;
+    -moz-user-select: none;
+}
+
+.w {
+    width: 92%;
+    margin: 0 auto;
+    /* padding: 0 30px; */
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 32px!important;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+
+/* 大于号 */
+
+.gt_gj {
+    height: .533333rem;
+    /* background-color: pink; */
+    margin-top: .88rem;
+    margin-left: .266667rem;
+}
+
+.gt_gj a {
+    color: #000;
+}
+
+
+/* 取消订单 */
+
+.state_gj {
+    height: 1.666667rem;
+    /* background-color: blue; */
+    line-height: 1.666667rem;
+}
+
+.state_gj p,
+.state_gj span {
+    display: inline-block;
+    margin-left: .2rem;
+}
+
+.state_gj p {
+    font-size: .533333rem;
+    color: #333;
+    font-weight: 700;
+}
+
+.state_gj span {
+    margin-left: .133333rem;
+    font-size: .32rem;
+    color: #999;
+}
+
+
+/* 支付方式  */
+
+.box—gj {
+    width: 9.133333rem;
+    height: 3.2rem;
+    border: 1px solid #f4f4f4;
+    border-radius: .5rem;
+}
+
+.box—gj li {
+    position: relative;
+    height: 1.6rem;
+    border-bottom: .013333rem solid #f4f4f4;
+    margin: 0 .506667rem;
+    line-height: 1.493333rem;
+}
+
+span img {
+    position: absolute;
+    top: .42rem;
+    left: .133333rem;
+    width: .733333rem;
+    height: .733333rem;
+}
+
+i img {
+    position: absolute;
+    top: .42rem;
+    right: .133333rem;
+    width: .733333rem;
+    height: .733333rem;
+}
+
+li p {
+    position: absolute;
+    top: .1rem;
+    left: 1rem;
+    font-size: .373333rem;
+    font-weight: 700;
+}

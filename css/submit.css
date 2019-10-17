@@ -1,0 +1,427 @@
+body {
+    min-width: 320px;
+    max-width: 750px;
+    /* flexible 给我们划分了 10 等份 */
+    width: 10rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #fdfdfd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gt_gj a {
+    width: .666667rem;
+    display: block;
+    font-family: 'icomoon';
+    font-size: .8rem;
+    margin-left: .266667rem;
+    line-height: .666667rem;
+    transform: rotate(180deg);
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-focus: none;
+    -moz-user-select: none;
+}
+
+.w {
+    width: 92%;
+    margin: 0 auto;
+    /* padding: 0 30px; */
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 32px!important;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+
+/* 大于号 */
+
+.gt_gj {
+    height: .533333rem;
+    /* background-color: pink; */
+    margin-top: .88rem;
+    margin-left: .266667rem;
+}
+
+.gt_gj a {
+    color: #000;
+}
+
+
+/* 是否支付 */
+
+.zong_gj {
+    /* width: 100%; */
+    margin-top: .133333rem;
+    height: 1.666667rem;
+    line-height: 1.666667rem;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.total_gj {
+    float: left;
+    margin-left: 1.8rem;
+    font-size: .32rem;
+    color: #666;
+}
+
+.total_gj .price_gj {
+    font-size: .36rem;
+    font-weight: 700;
+    color: #e4007b;
+}
+
+.total_gj .price_gj i {
+    font-style: normal;
+    font-size: .266667rem;
+}
+
+.total_gj .price_gj strong {
+    font-size: .3rem;
+}
+
+.total_gj .price_gj {
+    font-size: .4rem;
+}
+
+.paidan_gj {
+    /* display: inline-block; */
+    float: right;
+    margin-right: .3rem;
+    margin-top: .15rem;
+    width: 2.333333rem;
+    height: 1.333333rem;
+    line-height: 1.333333rem;
+    background-color: #003a9b;
+    border-radius: .666667rem;
+    text-align: center;
+    font-size: .35rem;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-focus: none;
+    -moz-user-select: none;
+}
+
+.paidan_gj a {
+    color: #fff;
+}
+
+.jiesuan_gj a {
+    color: #333;
+}
+
+.jiesuan_gj {
+    /* display: inline-block; */
+    float: right;
+    margin-right: .2rem;
+    margin-top: .15rem;
+    width: 2.333333rem;
+    height: 1.333333rem;
+    line-height: 1.333333rem;
+    background-color: #fddf00;
+    border-radius: .666667rem;
+    font-size: .35rem;
+    font-weight: 700;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-focus: none;
+    -moz-user-select: none;
+}
+
+
+/* 等待付款 */
+
+.pay_gj {
+    height: 2.666667rem;
+    background-color: #fddf00;
+    overflow: hidden;
+    font-weight: 700;
+}
+
+.pay_gj .wait {
+    float: left;
+    margin-top: .666667rem;
+    margin-left: .533333rem;
+}
+
+.pay_gj .djs_gj {
+    float: right;
+    margin-top: .87rem;
+    margin-right: .6rem;
+    font-size: .4rem;
+}
+
+
+/* 信息填写  */
+
+.box—gj {
+    margin-top: .933333rem;
+    width: 9.133333rem;
+    height: 5.733333rem;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    border-radius: .533333rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    margin-top: -.8rem;
+}
+
+.box—gj li {
+    margin-top: .266667rem;
+    height: .933333rem;
+    margin: 0 .506667rem;
+    /* line-height: .933333rem; */
+    font-size: .293333rem;
+}
+
+.box—gj .first_gj {
+    padding-top: .6rem;
+}
+
+.box—gj .last_gj {
+    border-bottom: none;
+}
+
+.box—gj label {
+    /* display: inline-block; */
+    float: left;
+    margin-right: .2rem;
+}
+
+.box—gj .last_gj span {
+    display: inline-block;
+    width: 5.333333rem;
+    height: .32rem;
+    margin-left: .133333rem;
+    width: 5.333333rem;
+    height: 1.333333rem;
+}
+
+
+/* Dior专营店 */
+
+.dior_gj {
+    width: 9.133333rem;
+    height: 7.733333rem;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    border-radius: .533333rem;
+    margin-top: .266667rem;
+    overflow: hidden;
+}
+
+.dior_gj h5 {
+    height: 1.226667rem;
+    line-height: 1.226667rem;
+    font-size: .4rem;
+    font-weight: 700;
+    margin-left: .666667rem;
+}
+
+.dior_gj li {
+    height: 3.4rem;
+    border-top: .013333rem solid #f7f7f7;
+    margin: 0 .093333rem;
+    margin-left: .533333rem;
+}
+
+li .print_gj {
+    float: left;
+    width: 1.866667rem;
+    height: 1.866667rem;
+    margin-top: .733333rem;
+}
+
+.dior_gj .country_gj {
+    display: inline-block;
+    width: 4.666667rem;
+    margin: .733333rem 0 0 .266667rem;
+}
+
+.country_gj img {
+    margin-top: .133333rem;
+    display: block;
+    width: .373333rem;
+    height: .266667rem;
+}
+
+.country_gj p {
+    font-size: .293333rem;
+    margin-top: .133333rem;
+}
+
+.country_gj b {
+    font-size: .346667rem;
+    color: #e4007b;
+}
+
+.dior_gj .shu_gj {
+    /* width: .2rem;
+    height: .2rem; */
+    font-size: .4rem;
+    float: right;
+    margin-top: 2rem;
+    margin-right: .5rem;
+}
+
+
+/* 会员信息 */
+
+.member_gj {
+    height: 10rem;
+    width: 9.133333rem;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    border-radius: .533333rem;
+    margin-top: .266667rem;
+}
+
+.member_gj li {
+    height: 1.4rem;
+    margin: 0 .093333rem;
+    /* line-height: 1.4rem; */
+    /* font-weight: 700; */
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.member_gj .first_gj {
+    height: 1.733333rem;
+    font-size: .293333rem;
+    line-height: 1.733333rem;
+}
+
+.member_gj .time_gj {
+    height: 2.133333rem;
+}
+
+.first_gj img {
+    float: left;
+    width: .866667rem;
+    height: .8rem;
+    margin: .4rem 0 .533333rem .36rem;
+}
+
+.member_gj .first_gj span {
+    float: left;
+    margin-left: .3rem;
+}
+
+.member_gj .first_gj div {
+    float: left;
+    width: 1.2rem;
+    height: .426667rem;
+    line-height: .426667rem;
+    margin-top: .67rem;
+    margin-left: .133333rem;
+    background: #003a9b;
+    border-radius: .133333rem;
+    color: #fbda83;
+    font-weight: 700;
+}
+
+.member_gj .time_gj li {
+    height: 1rem;
+    margin: 0 .506667rem;
+    line-height: 1rem;
+    /* font-weight: 700; */
+}
+
+.member_gj li label {
+    display: inline-block;
+    font-size: .373333rem;
+    margin-left: .466667rem;
+    font-weight: 600;
+}
+
+.member_gj li input {
+    display: inline-block;
+    border: none;
+    width: 6.2rem;
+    height: .533333rem;
+    font-size: .373333rem;
+    margin-left: .133333rem;
+    outline: none;
+}
+
+
+/* 商品总额 */
+
+
+/* .total_gj {
+    float: left;
+    margin-left: 1.8rem;
+    font-size: .32rem;
+    color: #666;
+} */
+
+.last_gj b {
+    float: right;
+    margin-top: .4rem;
+    margin-right: .2rem;
+    font-size: .32rem;
+    color: #666;
+    font-size: .36rem;
+    /* font-weight: 700; */
+    /* color: #000; */
+}
+
+
+/* 需付款 */
+
+.zonge_gj {
+    float: right;
+    margin-right: .3rem
+}
+
+.zonge_gj label {
+    font-size: .32rem;
+    color: #666;
+}
+
+.zonge_gj span {
+    color: #e4007b;
+    font-weight: 700;
+    font-size: .4rem;
+}
+
+.zonge_gj i,
+strong {
+    font-style: normal;
+    font-size: .24rem;
+}
+
+.zonge_gj b {
+    font-size: .32rem;
+}

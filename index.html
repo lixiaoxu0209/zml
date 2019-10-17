@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv=" X-UA-Compatible " content="ie=edge ">
+    <link rel="stylesheet " href="css/normalize.css ">
+    <script src="js/flexible.js "></script>
+    <script src="js/jquery.min.js "></script>
+    <link rel="stylesheet " href="css/swiper.min.css ">
+    <link rel="stylesheet " href="css/index.css ">
+    <script src="js/index.js"></script>
+
+    <title>貝の拍单</title>
+
+</head>
+
+<body>
+    <div class="sub_btn"></div>
+
+    <header>
+        <a href="searchLYZ.html">
+            <a href="weizhi.html">
+                <div class="site ">
+                    <em>日本</em>
+                    <i></i>
+                </div>
+            </a>
+
+            <div class="search ">
+                <a href="seekLYZ.html">
+                    <input type="search " placeholder="喜欢我就选我吧！  " id="search_index">
+                </a>
+                <i></i>
+            </div>
+
+            <div class="message ">
+                <i></i>
+                <em></em>
+            </div>
+    </header>
+
+    <div class="banner ">
+        <img data-lazy-src="images/banner.png " alt=" ">
+    </div>
+
+    <div class="believe ">
+        <div class="text_believe ">貝の拍承诺</div>
+        <ul class="fl ">
+            <li><i class="pei"></i>假一赔十</li>
+            <li><i class="shui"></i>商品包税</li>
+            <li><i class="shou"></i>售后无忧</li>
+        </ul>
+    </div>
+
+    <div class="gowhere clearfix ">
+        <div class="titile_top ">我的の行程卡片</div>
+        <div class="gowhere_body ">
+
+            <div class="noOne">
+                <p>行程空空&nbsp;添加行程&nbsp;去逛逛</p>
+                <div class="noOne_add"></div>
+            </div>
+
+            <div class="swiper-container global-promotion" style="display: none" id="go_dream">
+                <div class="swiper-wrapper" id="dream_box">
+                    <div class="swiper-slide hk near_body_s_img " id="mydream">
+                        <div class="shop_img">
+                            <div class="gowhere_box">
+                                <div class="gowhere_box_son1 fl">
+                                    <p>DFS环球免税店</p>
+                                    <i>2018-10-12</i>
+                                    <em>即将开始</em>
+                                    <span>&gt;</span>
+                                </div>
+                                <div class="gowhere_box_son2 fl"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide hk near_body_s_img " id="add_new">
+                        <div class="shop_img">
+                            <div class="gowhere_box">
+                                <div class="gowhere_box_son1 fl">
+                                    <div class="more">还没有第<strong id="num_many"></strong>行程</div>
+                                    <div class="add_add" id="add_more"></div>
+                                </div>
+                                <!-- <div class="gowhere_box_son2 fl"></div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="near clearfix ">
+        <div class="titile_top ">附近の店铺</div>
+
+        <div class="near_body ">
+
+            <div class="swiper-container global-promotion">
+                <div class="swiper-wrapper" id="huadong_father">
+                    <div class="swiper-slide hk near_body_s_img ">
+                        <div class="shop_img">
+                            <a href="store_bp.html"><img data-lazy-src="images/city1.png" alt=""></a>
+                        </div>
+                        <span>日清</span>
+                    </div>
+                    <div class="swiper-slide hk near_body_s_img ">
+                        <div class="shop_img">
+                            <a href="store_bp.html"><img data-lazy-src="images/city2.png" alt=""></a>
+                        </div>
+                        <span>日本红茶</span>
+                    </div>
+                    <div class="swiper-slide hk near_body_s_img ">
+                        <div class="shop_img">
+                            <a href="store_bp.html"><img data-lazy-src="images/city3.png" alt=""></a>
+                        </div>
+                        <span>资生堂</span>
+                    </div>
+
+                    <div class="swiper-slide hk near_body_s_img ">
+                        <div class="shop_img">
+                            <a href="store_bp.html"><img data-lazy-src="images/city1.png" alt=""></a>
+                        </div>
+                        <span>日清</span>
+                    </div>
+                    <div class="swiper-slide hk near_body_s_img ">
+                        <div class="shop_img">
+                            <a href="store_bp.html"><img data-lazy-src="images/city2.png" alt=""></a>
+                        </div>
+                        <span>日本红茶</span>
+                    </div>
+                    <div class="swiper-slide hk near_body_s_img ">
+                        <div class="shop_img">
+                            <a href="store_bp.html"><img data-lazy-src="images/city3.png" alt=""></a>
+                        </div>
+                        <span>资生堂</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <div class="commodity clearfix ">
+        <div class="titile_top ">附近の人气商品</div>
+        <div class="commodity_one clearfix ">
+            <ol>
+                <li>
+                    <section>
+                        <a href="details.html"><img data-lazy-src="images/shangpin1.1.png" alt=" "></a>
+                    </section>
+                    <div class="commodity_one_text ">
+                        <div class="state_picture "></div>
+                        <div class="commodity_one_text_box ">
+                            <a href="javascript:;">
+                                <p>LOLN&nbsp;狮王&nbsp;CLINCA&nbsp;牙膏&nbsp;清新薄荷130g</p>
+                            </a>
+                            <em>￥235</em>
+
+                            <a href="javascript:;">
+                                <div class="go "></div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <section>
+                        <a href="javascript:;"><img data-lazy-src="images/shangpin1.2.png" alt=" "></a>
+                    </section>
+                    <div class="commodity_one_text ">
+                        <div class="state_picture "></div>
+
+                        <div class="commodity_one_text_box ">
+                            <a href="javascript:;">
+                                <p>LOLN&nbsp;狮王&nbsp;CLINCA&nbsp;牙膏&nbsp;清新薄荷130g</p>
+                            </a>
+                            <em>￥235</em>
+
+                            <a href="javascript:;">
+                                <div class="go "></div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </li>
+            </ol>
+
+            <ul class="clearfix">
+                <li>
+                    <section>
+                        <a href="javascript:;"><img data-lazy-src="images/shangpin2.1.png" alt=" "></a>
+                    </section>
+                    <div class="commodity_one_text ">
+                        <div class="state_picture "></div>
+                        <div class="commodity_one_text_box ">
+                            <a href="javascript:;">
+                                <p>SYELTY&nbsp;分解糖&nbsp;活酵母&nbsp;56粒</p>
+                            </a>
+                            <em>￥88</em>
+
+                            <a href="javascript:;">
+                                <div class="go "></div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <section>
+                        <a href="javascript:;"><img data-lazy-src="images/shangpin2.2.png" alt=" "></a>
+                    </section>
+                    <div class="commodity_one_text ">
+                        <div class="state_picture "></div>
+                        <div class="commodity_one_text_box ">
+                            <a href="javascript:;">
+                                <p>SYELTY&nbsp;分解糖&nbsp;活酵母&nbsp;56粒</p>
+                            </a>
+                            <em>￥88</em>
+
+                            <a href="javascript:;">
+                                <div class="go "></div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <section>
+                        <a href="javascript:;"><img data-lazy-src="images/shangpin2.3.png" alt=" "></a>
+                    </section>
+                    <div class="commodity_one_text ">
+                        <div class="state_picture "></div>
+                        <div class="commodity_one_text_box ">
+                            <a href="javascript:;">
+                                <p>SYELTY&nbsp;分解糖&nbsp;活酵母&nbsp;56粒</p>
+                            </a>
+                            <em>￥88</em>
+
+                            <a href="javascript:;">
+                                <div class="go "></div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+
+        </div>
+
+        <div class="tuijian ">
+
+            <div class="swiper-container global-promotion">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide hk near_body_s_img ">
+                        <div class="shop_img">
+                            <a href="javascript:;"><img data-lazy-src="images/tujian1.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide hk near_body_s_img ">
+                        <div class="shop_img">
+                            <a href="javascript:;"><img data-lazy-src="images/tuijian2.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide hk near_body_s_img ">
+                        <div class="shop_img">
+                            <a href="javascript:;"><img data-lazy-src="images/tujian1.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide hk near_body_s_img ">
+                        <div class="shop_img">
+                            <a href="javascript:;"><img data-lazy-src="images/tuijian2.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="banner_two ">
+
+
+            <div class="focus">
+                <ul>
+                    <li>
+                        <a href="javascript:;"><img data-lazy-src="images/123123_03.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img data-lazy-src="images/123123_03.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img data-lazy-src="images/123123_03.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img data-lazy-src="images/123123_03.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img data-lazy-src="images/123123_03.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img data-lazy-src="images/123123_03.png" alt=""></a>
+                    </li>
+                    <!-- <li><img data-lazy-src="images/123123_03.png" alt=""></li> -->
+
+                </ul>
+                <!-- 小圆点 -->
+                <ol>
+                    <li class="current"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+                </ol>
+            </div>
+
+        </div>
+
+        <div class="commodity_one commodity_two clearfix">
+            <ol>
+                <li>
+                    <section>
+                        <a href="javascript:;"><img data-lazy-src="images/shangpin1.1.png" alt=""></a>
+                    </section>
+                    <div class="commodity_one_text ">
+                        <div class="state_picture "></div>
+                        <div class="commodity_one_text_box ">
+                            <a href="javascript:;">
+                                <p>LOLN&nbsp;狮王&nbsp;CLINCA&nbsp;牙膏&nbsp;清新薄荷130g</p>
+                            </a>
+                            <em>￥235</em>
+
+                            <div class="user ">
+                                <i>
+                                    <a href="javascript:;"><img data-lazy-src="images/user_03.png" alt=""></a>        
+                                </i>
+                                <span>肉嘟嘟&思思</span>
+                            </div>
+
+                            <a href="javascript:;">
+                                <div class="go "></div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </li>
+                <li>
+                    <section>
+                        <a href="javascript:;"><img data-lazy-src="images/shangpin1.2.png" alt=" "></a>
+                    </section>
+                    <div class="commodity_one_text ">
+                        <div class="state_picture "></div>
+
+                        <div class="commodity_one_text_box ">
+                            <a href="javascript:;">
+                                <p>LOLN&nbsp;狮王&nbsp;CLINCA&nbsp;牙膏&nbsp;清新薄荷130g</p>
+                            </a>
+                            <em>￥235</em>
+                            <div class="user ">
+                                <i>
+                                    <a href="javascript:;"><img data-lazy-src="images/user_03.png" alt=""></a>        
+                                </i>
+                                <span>肉嘟嘟&思思</span>
+                            </div>
+
+                            <a href="javascript:;">
+                                <div class="go "></div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <section>
+                        <a href="javascript:;"><img data-lazy-src="images/shangpin1.1.png" alt=" "></a>
+                    </section>
+                    <div class="commodity_one_text ">
+                        <div class="state_picture "></div>
+
+                        <div class="commodity_one_text_box ">
+                            <a href="javascript:;">
+                                <p>LOLN&nbsp;狮王&nbsp;CLINCA&nbsp;牙膏&nbsp;清新薄荷130g</p>
+                            </a>
+                            <em>￥235</em>
+                            <div class="user ">
+                                <i>
+                                    <a href="javascript:;"><img data-lazy-src="images/user_03.png" alt=""></a>        
+                                </i>
+                                <span>肉嘟嘟&思思</span>
+                            </div>
+                            <a href="javascript:;">
+                                <div class="go "></div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <section>
+                        <a href="javascript:;"><img data-lazy-src="images/shangpin1.2.png" alt=" "></a>
+                    </section>
+                    <div class="commodity_one_text ">
+                        <div class="state_picture "></div>
+
+                        <div class="commodity_one_text_box ">
+                            <a href="javascript:;">
+                                <p>LOLN&nbsp;狮王&nbsp;CLINCA&nbsp;牙膏&nbsp;清新薄荷130g</p>
+                            </a>
+                            <em>￥235</em>
+                            <div class="user ">
+                                <i>
+                                    <a href="javascript:;"><img data-lazy-src="images/user_03.png" alt=""></a>        
+                                </i>
+                                <span>肉嘟嘟&思思</span>
+                            </div>
+                            <a href="javascript:;">
+                                <div class="go "></div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <section>
+                        <a href="javascript:;"><img data-lazy-src="images/shangpin1.2.png" alt=" "></a>
+                    </section>
+                    <div class="commodity_one_text ">
+                        <div class="state_picture "></div>
+
+                        <div class="commodity_one_text_box ">
+                            <a href="javascript:;">
+                                <p>LOLN&nbsp;狮王&nbsp;CLINCA&nbsp;牙膏&nbsp;清新薄荷130g</p>
+                            </a>
+                            <em>￥235</em>
+                            <div class="user ">
+                                <i>
+                                    <a href="javascript:;"><img data-lazy-src="images/user_03.png" alt=""></a>        
+                                </i>
+                                <span>肉嘟嘟&思思</span>
+                            </div>
+                            <a href="javascript:;">
+                                <div class="go "></div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <section>
+                        <a href="javascript:;"><img data-lazy-src="images/shangpin1.1.png" alt=" "></a>
+                    </section>
+                    <div class="commodity_one_text ">
+                        <div class="state_picture "></div>
+
+                        <div class="commodity_one_text_box ">
+                            <a href="javascript:;">
+                                <p>LOLN&nbsp;狮王&nbsp;CLINCA&nbsp;牙膏&nbsp;清新薄荷130g</p>
+                            </a>
+                            <em>￥235</em>
+                            <div class="user ">
+                                <i>
+                                    <a href="javascript:;"><img data-lazy-src="images/user_03.png" alt=""></a>        
+                                </i>
+                                <span>肉嘟嘟&思思</span>
+                            </div>
+                            <a href="javascript:;">
+                                <div class="go "></div>
+                            </a>
+                        </div>
+
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href=" " class="index_ico">
+
+                    </a>
+                </li>
+                <li>
+                    <a href="demo-mxx.html" class="fenlei_ico">
+
+                    </a>
+                </li>
+                <li>
+                    <a href="luxing.html">
+                        <div class="home"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="car.html" class="cart_ico">
+
+                    </a>
+                </li>
+                <li>
+                    <a href="demo.html" class="mine_ico">
+
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="js/swiper.min.js "></script>
+    <script src="js/EasyLazyload.min.js"></script>
+
+</body>
+
+
+</html>

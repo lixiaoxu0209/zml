@@ -1,0 +1,446 @@
+
+.hd {
+    position: relative;
+   height: 1.333333rem;
+// background-color: pink;
+}
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    width: 10rem;
+    background-color:#FFFFFF;
+    margin: 0 auto;
+}
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 32px!important;
+    }
+}
+
+@media screen and (min-width: 750px){
+    html {
+        font-size: 75px!important;
+    }
+}
+
+// 当前位置城市
+.hd i {
+    position: absolute;
+    left: .533333rem;
+    bottom: .266667rem;
+    display: block;
+    width: .3rem;
+    height: .3rem;
+    border-left: .026667rem solid #050505;
+    border-bottom: .026667rem  solid #050505;
+    transform: rotate(45deg);
+}
+.place {
+position: relative;
+// padding-top: .48rem;
+padding-left: .533333rem;
+    height: 1rem;
+    // line-height:1.466667rem;
+    .place_zou {
+        float: left;
+    }
+    .place_you {
+        float: right;
+        margin-right: .48rem;
+    }
+}
+.place_zou img {
+    position: absolute;
+    left: .533333rem;
+    top: 0;
+    // float: left;
+    display: block;
+    width: .453333rem;
+    height: .56rem;
+  
+
+}
+.place_zou span {
+    display: block;
+    float: right;
+    margin-left: .533333rem;
+    font-size: .373333rem;
+}
+.place_you {
+    font-size: .373333rem;
+}
+.location {
+    margin-top: 3rem;
+
+}
+.location ul{
+    width: 9.066667rem;
+    margin: 0 auto;
+}
+.color_li {
+    background-color: #fddf00;
+}
+.location ul li {
+    // width: 9.066667rem;
+    height: 1.28rem;
+    
+    border-radius: .213333rem;
+    margin-bottom: .266667rem;
+   line-height: 1.28rem;
+   padding-left : .453333rem;
+   font-size: .48rem;
+}
+// 当前位置城市  end
+//当前位置附近
+.business {
+    overflow: hidden;
+   
+    text-align: center;
+    color: #666666;
+    position: fixed;
+    top: 2.133333rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #fff;
+    padding-top: .533333rem;
+    // margin-top:  2.666667rem;
+    p {
+        margin: .126667rem;
+        padding: 0;
+        font-size: .373333rem;
+        color: #000;
+        
+    }
+    .business_zou {
+        float: left;
+        width: 4.266667rem;
+        height: 1.173333rem;
+        border-radius: .213333rem;
+        margin-left: .533333rem;
+        font-size: .266667rem;
+    }
+    .business_you {
+        float: right;
+        width: 4.266667rem;
+        height: 1.173333rem;
+        border-radius: .213333rem;
+        margin-right: .48rem;
+        font-size: .266667rem;
+
+    }
+}
+// 头部定位  大盒子
+.tou {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    overflow: hidden;
+    background-color: #FFFFFF;
+    z-index: 2222;
+    width: 10rem;
+    // margin-bottom: 4.8rem;
+}
+// 头部定位 end
+//当前位置附近 end
+// 附近
+.nearby {
+    width: 9.066667rem;
+    padding-top: .266667rem;
+    margin: 4rem auto 0;
+   
+    .nearby_xia {
+        height: 1.666667rem;
+        width: 10rem;
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        a {
+            // display: block;
+            width: 8.266667rem;
+            height: 1.2rem;
+            background-color: #FDDF00;
+            text-align: center;
+            line-height:1.2rem;
+            border-radius: 1.2rem;
+            font-size: .426667rem;
+            color: #333333;
+            // margin: 0 auto;
+            position: absolute;
+            left: 50% ;
+            top: 0;
+            transform: translateX(-50%);
+        }
+    }
+    
+}
+.nearby_ul li{
+        // width: 9.066667rem;
+        height: 1.28rem;
+        line-height:1.28rem;
+        padding-left: .266667rem;
+        border-radius: .213333rem;
+        font-size: .48rem;
+        color: #3B3B3B;
+    // background-color: pink;
+}
+.licolor {
+    background-color: #F6F6F6;
+}
+// 附近 end
+//搜索
+.search_hd {
+    overflow: hidden;
+    width: 9.066667rem;
+
+    margin: 0  auto .6rem;
+}
+.search_hd_a {
+    color: #000;
+}
+.search_hdz {
+    font-size:.373333rem;
+}
+.search_hdz img {
+    width: .453333rem;
+    height: .293333rem;
+}
+.search_hdy {
+    font-size: .373333rem;
+}
+.ipt {
+    // border-top: 0;
+   position: relative;
+    width: 9.066667rem;
+    height: 1.12rem;
+    margin: 0 auto;
+    input {
+        // display: block;
+        width: 100%;
+        width: 9.066667rem;
+        height: 1.12rem;
+        border: 0;
+        border-radius: 1.12rem; 
+        background-color: #f6f6f6;
+       line-height:1.12rem;
+        font-size: .373333rem;
+        text-indent :1em;
+        outline: none;  
+        
+    }
+    input::-webkit-input-placeholder{
+        color: #3B3B3B;
+        font-size: .373333rem;
+
+    }
+    i {
+        position: absolute;
+        right: 0;
+        top: 0;
+        // display: block;
+        width: .56rem;
+        height: .56rem;
+        background-color: pink;
+        margin-right: .533333rem;
+        margin-top:   .32rem;
+        background-image: url(../images/page2.jpg);
+        background-repeat: no-repeat;
+        background-size:.56rem .56rem;
+    }
+}
+//搜索 end
+//热门搜索
+.hot {
+    font-size: .373333rem;
+    color: #999;
+    width: 9.066667rem;
+
+    margin: 4.8rem auto 0;
+}
+.hotxia {
+    margin: .8rem auto 0;
+}
+//热门搜索end
+// 面膜
+.mask {
+    width: 9.066667rem;
+    margin: 0 auto;
+    overflow: hidden;
+    li {
+        float: left;
+        margin: .133333rem;
+        border:.026667rem solid #E7E7E7;
+        padding: .186667rem .4rem;
+        border-radius: .16rem;
+        font-size: .32rem;
+        color: #666;
+    }
+}
+// 面膜end
+//历史 li
+.history {
+    width: 9.546667rem;
+    overflow: hidden;
+    margin: 0 auto;
+    li{
+        border-bottom: .026667rem solid #f5f5f5;
+        height: 1.333333rem;
+        line-height:  1.333333rem;
+        padding-left  : .4rem;
+        font-size: .32rem;
+        color: #666;
+    }
+}
+//历史 li   end
+// 售后申请列表
+.color_hui {
+    color: #F1F1F1!important;
+}
+.shen {
+    font-size: .533333rem;
+    color: #333;
+    height: 1.333333rem;
+    width: 9.066667rem;
+    margin: 0 auto;
+    line-height:  1.333333rem;
+    span {
+        font-size: .32rem;
+        color: #999;
+    }
+}
+.dior {
+    // background-color: pink;
+    border: 1px solid #F1F1F1;
+    border-radius: .4rem;
+    width: 9.066667rem;
+    margin: 5px auto;
+    p{
+        font-size: .373333rem;
+        color: #333;
+        margin: .266667rem;
+    
+    }
+}
+.cosmetic {
+    // height: 3.2rem;
+    overflow: hidden;
+    border-top:1px solid #F1F1F1;
+    // border-bottom:1px solid pink;
+}
+.cosmetic_zuo {
+    overflow: hidden;
+    // background-color: red;
+    width: 1.866667rem;
+    height: 1.866667rem;
+    margin: .533333rem .4rem .533333rem .533333rem;
+    border-radius: .266667rem;
+    img {
+        width: 100%;
+    }
+}
+.cosmetic_you {
+    p {
+        margin: .133333rem 0 0  ;
+        font-size: .373333rem;
+        font-weight: 600;
+    }
+    span {
+        font-size: .426667rem;
+        color: #E4007B;
+        font-weight: 600;
+    }
+  
+}
+.cosmetic_youi {
+    display: block;
+    width: .373333rem;
+    height: .266667rem;
+//   background-color:pink;
+  background-image: url(../images/Group\ 2.png);
+  background-repeat: no-repeat;
+  background-size: .373333rem;
+  margin-top : .746667rem;
+}
+.riqing {
+    border: 1px solid #F1F1F1;
+    border-radius: .4rem;
+    width: 9.066667rem;
+    margin: 5px auto;
+    p{
+        font-size: .373333rem;
+        color: #333;
+        margin: .266667rem;
+    }
+
+}
+.amount {
+    padding-top: .4rem;
+    overflow: hidden;
+    border-top: .026667rem solid #F1F1F1;
+   margin-bottom: .4rem;
+    span {
+        line-height:.693333rem;
+        height: 100%;
+        font-size: .32rem;
+        color: #333;
+        margin-left: 2.666667rem;
+    }
+    div {
+        overflow: hidden;
+        width: 2.133333rem;
+        height:.693333rem;
+        line-height:.693333rem;
+        border:.026667rem solid #F1F1F1;
+        border-radius: .08rem;
+        margin:  0 .32rem;
+        input {
+           width:.96rem;
+            height: 100%;
+            border:0;
+            border-left:.026667rem solid #F1F1F1;
+            border-right:.026667rem solid #F1F1F1;
+            font-size: .32rem;
+            text-align: center;
+        }
+    }
+}
+.amount_zuo,
+.amount_you {
+    width: .533333rem;
+    text-align: center;
+    
+    font-size: .566667rem;
+    color: #333;
+}
+.amount>a {
+    font-size: .32rem;
+    color: #333;
+  line-height:.693333rem;
+    height: .693333rem;
+  border:.026667rem solid #F1F1F1;
+  border-radius: .693333rem;
+  padding: 0 .266667rem;
+}
+// 售后申请列表end
+.lyz {
+    display: none;
+}
+// .lyza {
+//     display: none;
+// }

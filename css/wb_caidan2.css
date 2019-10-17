@@ -1,0 +1,159 @@
+body {
+    min-width: 320px;
+    max-width: 750px;
+    /* flexible 给我们划分了 10 等份 */
+    width: 10rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #FFF;
+}
+
+a {
+    text-decoration: none;
+    /* font-size: .333333rem; */
+}
+
+ul>li {
+    list-style: none;
+}
+
+ol>li {
+    list-style: none;
+}
+
+
+/* 这个插件默认的html文字大小 cssroot  16px */
+
+
+/* 
+img {
+    width: 5.125rem;
+    height: 4rem;
+    width: 1rem;
+    width: 1.093333rem;
+    height: 1rem;
+} */
+
+
+/* 如果我们的屏幕超过了 750px  那么我们就按照 750设计稿来走 不会让我们页面超过750px */
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+
+/* 生成拆单首界面 */
+
+
+/* 头部wb_top */
+
+.wb_header {
+    position: relative;
+    width: 100%;
+    height: 1.2rem;
+    background-color: #fff;
+    margin-bottom: .4rem;
+}
+
+.wb_user {
+    position: absolute;
+    top: .466667rem;
+    left: .533333rem;
+    font-family: PingFangSC-Medium;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: left;
+    font-weight: 700;
+}
+
+.wb_share {
+    position: absolute;
+    top: .466667rem;
+    right: .586667rem;
+    width: .48rem;
+    height: .613333rem;
+    font-family: "PingFangSC-Medium";
+    background: url(../images/Group3.png);
+    background-size: .48rem .613333rem;
+}
+
+
+/* 店铺信息 start */
+
+.wb_collect_content {
+    height: 2.626667rem;
+    background-color: #FDFDFD;
+}
+
+.wb_collect_list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-style: none;
+    /* justify-content: center; */
+    width: 9.066667rem;
+    height: 2.333333rem;
+    margin-left: .48rem;
+    background-color: #fff;
+    border-radius: 0.66rem;
+    border: .02rem solid #F0F0F0;
+}
+
+.wb_collect_img {
+    float: left;
+    transform: translateX(.573333rem);
+    width: 1.866667rem;
+    height: 1.866667rem;
+    background: url(../images/BitmapCopy.png) no-repeat;
+    background-size: 1.866667rem 1.866667rem;
+    border: .02rem solid #ccc;
+    border-radius: .133333rem;
+    line-height: 2.333333rem;
+}
+
+.wb_collect_2 {
+    float: left;
+    transform: translateX(.573333rem);
+    width: 5.6rem;
+    height: 1.666667rem;
+    padding: .2rem 0 0 .333333rem;
+}
+
+.wb_collect_2 .h5 {
+    display: block;
+    height: 0.5rem;
+    font-family: "PingFangSC-Medium";
+    font-size: .32rem;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: 600;
+    text-align: left;
+    background: url(../images/Group2.png) no-repeat;
+    background-size: 0.5rem;
+}
+
+.wb_collect_2 .p {
+    font-family: "PingFangSC-Medium";
+    font-size: .373333rem;
+    color: #333333;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.wb_collect_2 .wb_price {
+    font-family: "PingFangSC-Semibold";
+    font-size: .426667rem;
+    color: #E4007B;
+    letter-spacing: 0;
+    font-weight: 700;
+    background: url(../images/cart.png) no-repeat;
+    background-size: .64rem .533333rem;
+    background-position: bottom right;
+}
+
+
+/* 店铺信息 end */

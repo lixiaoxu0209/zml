@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 320px;
+    max-width: 750px;
+    /* flexible 给我们划分了 10 等份 */
+    width: 10rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* 如果我们的屏幕超过了 750px  那么我们就按照 750设计稿来走 不会让我们页面超过750px */
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+.subeva_top {
+    width: 10rem;
+    height: 1.333333rem;
+}
+
+.subeva_jt {
+    position: fixed;
+    width: 10rem;
+    height: .52rem;
+    padding-top: .84rem;
+}
+
+.subeva_top a img {
+    display: block;
+    margin-left: .52rem;
+    width: .32rem;
+    height: .52rem;
+}
+
+.subeva_text {
+    margin: .506667rem 0rem .733333rem .48rem;
+}
+
+.subeva_text p {
+    font-size: .533333rem;
+    font-weight: 700;
+}
+
+.subeva_hd {
+    width: 9.093333rem;
+    height: 3rem;
+    border: .013333rem solid #ccc;
+    border-radius: .4rem;
+    margin: 0rem .48rem .266667rem .48rem;
+}
+
+.spt img {
+    float: left;
+    margin-top: .426667rem;
+    margin-left: .586667rem;
+    width: 1.866667rem;
+    height: 1.866667rem;
+}
+
+.stars {
+    float: left;
+    margin-top: .773333rem;
+    margin-left: .4rem;
+}
+
+.stars p {
+    font-size: .36rem;
+    font-weight: 700;
+}
+
+.stars img {
+    width: .493333rem;
+    height: .493333rem;
+}
+
+.subeva_texts {
+    width: 9.066667rem;
+    height: 5.2rem;
+    border: .013333rem solid #ccc;
+    border-radius: .4rem;
+    margin-left: .48rem;
+    margin-right: .48rem;
+}
+
+.subeva_texts p {
+    height: 2.853333rem;
+    padding-top: .48rem;
+    padding-left: .48rem;
+    color: #999;
+    font-size: .293333rem;
+}
+
+.subeva_texts img {
+    width: 1.56rem;
+    height: 1.493333rem;
+    margin-left: .48rem;
+}
+
+.ipt {
+    margin: 5.12rem auto 0rem;
+    width: 8.266667rem;
+    height: 1.2rem;
+    background-color: #fddf00;
+    border-radius: .4rem;
+}
+
+.ipt a {
+    display: block;
+    text-align: center;
+    line-height: 1.2rem;
+    color: #504c2b;
+    font-size: .4rem;
+    font-weight: 700;
+}

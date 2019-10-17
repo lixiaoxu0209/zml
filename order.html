@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>全部订单</title>
+    <link rel="stylesheet" href=" css/normalize.css">
+    <link rel="stylesheet" href=" css/order.css">
+    <script src=" js/flexible.js"></script>
+    <script src=" js/jquery.min.js"></script>
+    <script src=" js/order.js"></script>
+</head>
+
+<body>
+    <!-- 左侧箭头 -->
+    <div class="order_top">
+        <div class="order_jt">
+            <a href="demo.html">
+                <img src="images/fh.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="tab">
+        <div class="tab_list">
+            <ul>
+                <li class="current">
+                    <a href="#">全部</a>
+                </li>
+                <li>
+                    <a href="#">待支付</a>
+                </li>
+                <li>
+                    <a href="#">待取货</a>
+                </li>
+                <li>
+                    <a href="#">待评价</a>
+                </li>
+                <li>
+                    <a href="#">拆单</a>
+                </li>
+                <li>
+                    <a href="#">退换售后</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab_con">
+            <!-- 全部订单内容 -->
+            <div class="tab_item" style="display: block">
+                <!-- 待付款 -->
+                <div class="tab_item_one">
+                    <div class="tab_item_hd">
+                        <p>贝拍单</p>
+                        <a href="#">等待付款</a>
+                    </div>
+                    <div class="tab_item_img">
+                        <a href="#">
+                            <img src="images/Bitmap Copy.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Line 4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tab_item_price">
+                        <span>共3件商品  需付款：</span>
+                        <div class="num">
+                            <span>
+                                <em>￥</em>
+                                13424.
+                            </span>
+                            <em>21</em>
+                        </div>
+                    </div>
+                    <!-- 下划线 -->
+                    <div class="xiahuaxian"></div>
+                    <div class="tab_item_pay">
+                        <a href="paidan.html" class="payfor">去支付</a>
+                        <a href="cancel.html">取消订单</a>
+                    </div>
+                </div>
+                <!-- 待取货 -->
+                <div class="tab_item_one">
+                    <div class="tab_item_hd">
+                        <p>贝拍单</p>
+                        <a href="#">等待取货</a>
+                    </div>
+                    <div class="tab_item_img">
+                        <a href="#">
+                            <img src="images/Bitmap Copy.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Line 4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tab_item_price">
+                        <span>共3件商品  已付款：</span>
+                        <div class="num">
+                            <span>
+                                <em>￥</em>
+                                13424.
+                            </span>
+                            <em>21</em>
+                        </div>
+                    </div>
+                    <!-- 下划线 -->
+                    <div class="xiahuaxian"></div>
+                    <div class="tab_item_pay">
+                        <a href="#" class="payfor">拆单</a>
+                        <a href="applyLYZ.html">申请售后</a>
+                    </div>
+                </div>
+                <!-- 待评价 -->
+                <div class="tab_item_one">
+                    <div class="tab_item_hd">
+                        <p>贝拍单</p>
+                        <a href="#">待评价</a>
+                    </div>
+                    <div class="tab_item_img">
+                        <a href="#">
+                            <img src="images/Bitmap Copy.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Line 4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tab_item_price">
+                        <span>共3件商品  需付款：</span>
+                        <div class="num">
+                            <span>
+                                <em>￥</em>
+                                13424.
+                            </span>
+                            <em>21</em>
+                        </div>
+                    </div>
+                    <!-- 下划线 -->
+                    <div class="xiahuaxian"></div>
+                    <div class="tab_item_pay">
+                        <a href="#" class="payfor">评价晒单</a>
+                    </div>
+                </div>
+                <!-- 已完成 -->
+                <div class="tab_item_one">
+                    <div class="tab_item_hd">
+                        <p>贝拍单</p>
+                        <a href="#">已完成</a>
+                    </div>
+                    <div class="tab_item_img">
+                        <a href="#">
+                            <img src="images/Bitmap Copy.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Line 4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tab_item_price">
+                        <span>共3件商品  需付款：</span>
+                        <div class="num">
+                            <span>
+                                <em>￥</em>
+                                13424.
+                            </span>
+                            <em>21</em>
+                        </div>
+                    </div>
+                    <!-- 下划线 -->
+                    <div class="xiahuaxian"></div>
+                    <div class="tab_item_pay">
+
+                        <a href="#">删除订单</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 待支付订单内容 -->
+            <div class="tab_item">
+                <div class="tab_item_one">
+                    <div class="tab_item_hd">
+                        <p>贝拍单</p>
+                        <a href="#">等待付款</a>
+                    </div>
+                    <div class="tab_item_img">
+                        <a href="#">
+                            <img src="images/Bitmap Copy.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Line 4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tab_item_price">
+                        <span>共3件商品  需付款：</span>
+                        <div class="num">
+                            <span>
+                                <em>￥</em>
+                                13424.
+                            </span>
+                            <em>21</em>
+                        </div>
+                    </div>
+                    <!-- 下划线 -->
+                    <div class="xiahuaxian"></div>
+                    <div class="tab_item_pay">
+                        <a href="paidan.html" class="payfor">去支付</a>
+                        <a href="cancel.html">取消订单</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 待取货订单内容 -->
+            <div class="tab_item">
+                <div class="tab_item_one">
+                    <div class="tab_item_hd">
+                        <p>贝拍单</p>
+                        <a href="#">等待取货</a>
+                    </div>
+                    <div class="tab_item_img">
+                        <a href="#">
+                            <img src="images/Bitmap Copy.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Line 4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tab_item_price">
+                        <span>共3件商品  已付款：</span>
+                        <div class="num">
+                            <span>
+                                <em>￥</em>
+                                13424.
+                            </span>
+                            <em>21</em>
+                        </div>
+                    </div>
+                    <!-- 下划线 -->
+                    <div class="xiahuaxian"></div>
+                    <div class="tab_item_pay">
+                        <a href="#" class="payfor">拆单</a>
+                        <a href="#">申请售后</a>
+                    </div>
+                </div>
+                <div class="tab_item_one">
+                    <div class="tab_item_hd">
+                        <p>贝拍单</p>
+                        <a href="#">已取货</a>
+                    </div>
+                    <div class="tab_item_img">
+                        <a href="#">
+                            <img src="images/Bitmap Copy.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Line 4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tab_item_price">
+                        <span>共3件商品  已付款：</span>
+                        <div class="num">
+                            <span>
+                                <em>￥</em>
+                                13424.
+                            </span>
+                            <em>21</em>
+                        </div>
+                    </div>
+                    <!-- 下划线 -->
+                    <div class="xiahuaxian"></div>
+                    <div class="tab_item_pay">
+                        <a href="#" class="payfor">拆单</a>
+                        <a href="#" class="hui">申请售后</a>
+                    </div>
+                </div>
+                <div class="tab_item_one">
+                    <div class="tab_item_hd">
+                        <p>贝拍单</p>
+                        <a href="#">已取货</a>
+                    </div>
+                    <div class="tab_item_img">
+                        <a href="#">
+                            <img src="images/Bitmap Copy.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Line 4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tab_item_price">
+                        <span>共3件商品  已付款：</span>
+                        <div class="num">
+                            <span>
+                                <em>￥</em>
+                                13424.
+                            </span>
+                            <em>21</em>
+                        </div>
+                    </div>
+                    <!-- 下划线 -->
+                    <div class="xiahuaxian"></div>
+                    <div class="tab_item_pay bot">
+                        <a href="#" class="apply">申请退税</a>
+                        <a href="#" class="payfor">拆单</a>
+                        <a href="#">申请售后</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 待评价订单内容 -->
+            <div class="tab_item">
+                <div class="tab_item_one">
+                    <div class="tab_item_hd">
+                        <p>贝拍单</p>
+                        <a href="#">待评价</a>
+                    </div>
+                    <div class="tab_item_img">
+                        <a href="#">
+                            <img src="images/Bitmap Copy.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Line 4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tab_item_price">
+                        <span>共3件商品  需付款：</span>
+                        <div class="num">
+                            <span>
+                                <em>￥</em>
+                                13424.
+                            </span>
+                            <em>21</em>
+                        </div>
+                    </div>
+                    <!-- 下划线 -->
+                    <div class="xiahuaxian"></div>
+                    <div class="tab_item_pay">
+                        <a href="appraise.html" class="payfor">评价晒单</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 拆单内容 -->
+            <div class="tab_item">
+                <div class="tab_item_one jj">
+                    <div class="tab_item_hd">
+                        <p>酱酱的拆单</p>
+                    </div>
+                    <div class="tab_item_img">
+                        <a href="#">
+                            <img src="images/Bitmap Copy.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="index-wb.html">
+                            <img src="images/Line 4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tab_item_price">
+                        <span>共3件商品  已付款：</span>
+                        <div class="num">
+                            <span>
+                                <em>￥</em>
+                                13424.
+                            </span>
+                            <em>21</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 退换售后 -->
+            <div class="tab_item">
+                <div class="tab_item_one">
+                    <div class="tab_item_hd">
+                        <p>贝拍单</p>
+                        <a href="#">等待取货</a>
+                    </div>
+                    <div class="tab_item_img">
+                        <a href="#">
+                            <img src="images/Bitmap Copy.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Bitmap.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/Line 4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tab_item_price">
+                        <span>共3件商品  已付款：</span>
+                        <div class="num">
+                            <span>
+                                            <em>￥</em>
+                                            13424.
+                                        </span>
+                            <em>21</em>
+                        </div>
+                    </div>
+                    <!-- 下划线 -->
+                    <div class="xiahuaxian"></div>
+                    <div class="tab_item_pay">
+                        <a href="applyLYZ.html">申请售后</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>

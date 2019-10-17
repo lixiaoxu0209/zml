@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 32px!important;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    line-height: 0;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+body {
+    /* min-width: 320px;
+    max-width: 750px; */
+    /* flexible 给我们划分了 10 等份 */
+    /* width: 10rem;
+    margin: 0 auto;
+    line-height: 1.5; */
+    font-family: Arial, Helvetica;
+    background: #fff;
+    /* overflow: hidden; */
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.w {
+    width: 10rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: .266667rem;
+    /* padding: 0 0.3rem; */
+    /* overflow: hidden; */
+}
+
+.tou {
+    position: relative;
+    height: 1.2rem;
+}
+
+.tou_left {
+    position: absolute;
+    top: .18rem;
+    left: 0;
+    width: 0.6rem;
+}
+
+.tou_right {
+    position: absolute;
+    top: .18rem;
+    right: 0;
+    width: 0.6rem;
+}
+
+.fl {
+    width: 100%;
+}
+
+.fr {
+    width: 100%;
+}
+
+
+/* .fr {
+position: absolute;
+right:0;
+height:1.33rem;
+} */
+
+.fenlei {
+    font-size: .53rem;
+    height: .8rem;
+    margin-bottom: .3rem;
+}
+
+.boxs {
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* .all {
+    position: relative;
+    width: 100%;
+} */
+
+.left {
+    /* position: absolute; */
+    float: left;
+    overflow: hidden;
+    background-color: #fddf00;
+    width: 2.8rem;
+    border-radius: .13rem;
+}
+
+.left ul {
+    width: 2.8rem;
+}
+
+.left ul li {
+    width: 2.8rem;
+    list-style: none;
+    font-size: .4rem;
+    padding: .4rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.left .current {
+    width: 2.6rem;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #003a9b;
+    border-radius: .13rem;
+}
+
+
+/* .left li:hover {
+  background-color: #003a9b;
+  width:2.6rem;
+  margin:0 auto;
+  border-radius: .13rem;
+}
+.left li:hover a {
+	color: #fff;
+} */
+
+.right_mx {
+    float: left;
+    display: none;
+}
+
+.right {
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    float: left;
+    margin-left: .266667rem;
+    /* border:.01rem solid #ccc; */
+    height: 10rem;
+    width: 6rem;
+}
+
+.right_top {
+    position: relative;
+}
+
+.right_top input {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-size: .24rem;
+    height: .9rem;
+    background-color: #f5f5f5;
+    border: 0;
+    padding-left: .27rem;
+    box-sizing: border-box;
+    /* 不会撑开盒子 */
+}
+
+.right_top a {
+    position: absolute;
+    top: .1rem;
+    right: .13rem;
+    width: 1rem;
+    height: 1rem;
+    text-decoration: none;
+    color: #b0b0b0;
+    font-size: .53rem;
+    text-align: center;
+}
+
+
+/* 下面的大框展示 */
+
+.right_bottom {
+    padding-top: 1rem;
+}
+
+.right_bottom ul {
+    width: 110%;
+    height: 4.53rem;
+    margin-right: .13rem;
+    /* border:.01rem solid pink; */
+}
+
+.m {
+    float: left;
+    margin-top: .27rem;
+    margin-right: .16rem;
+    width: 28%;
+    border: .03rem solid #e6e6e6;
+    border-radius: 10%;
+}
+
+.right_bottom ul li a p {
+    text-align: center;
+    font-size: .24rem;
+}
+
+.mx {
+    display: block;
+    width: 1.33rem;
+    height: 1.33rem;
+    margin: .01rem auto;
+}
+
+.mx img {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 1.4rem;
+    z-index: 10;
+    background-color: #fff;
+}
+
+nav ul {
+    display: flex;
+    height: 100%;
+}
+
+nav ul li {
+    flex: 1;
+    height: 100%;
+}
+
+nav ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #767676;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li a.index_ico {
+    background: url(../images/index.png);
+    background-size: 100% 100%;
+}
+
+nav ul li a.fenlei_ico {
+    background: url(../images/fenlei2.png);
+    background-size: 100% 100%;
+}
+
+nav ul li a.cart_ico {
+    background: url(../images/cart.png);
+    background-size: 100% 100%;
+}
+
+nav ul li a.mine_ico {
+    background: url(../images/mine.png);
+    background-size: 100% 100%;
+}
+
+nav ul li .home {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 1.466667rem;
+    height: 2rem;
+    border-radius: .733333rem .733333rem 0 0;
+    background: url(../images/Group\ 38.png);
+    background-size: 100% 100%;
+}

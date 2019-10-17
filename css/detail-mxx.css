@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 32px!important;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+body {
+    /* min-width: 320px;
+    max-width: 750px; */
+    /* flexible 给我们划分了 10 等份 */
+    width: 10rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+em {
+    font-style: normal;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.w {
+    width: 94%;
+    margin: 0 auto;
+    height: 10rem;
+    /* background-color: pink; */
+}
+
+.detail-jt {
+    position: fixed;
+    width: 10rem;
+    height: .52rem;
+    padding-top: .84rem;
+}
+
+.detail-jt a img {
+    display: block;
+    margin-left: .52rem;
+    width: .32rem;
+    height: .52rem;
+}
+
+.return {
+    position: relative;
+    height: 1.333333rem;
+    /* border:0.1rem solid #ccc; */
+}
+
+.return i {
+    position: absolute;
+    top: .1rem;
+    font-size: .8rem;
+    /* font-weight:400; */
+}
+
+.return .dian {
+    position: absolute;
+    right: 0;
+    top: .5rem;
+}
+
+.dian ul {
+    background-color: blue;
+    margin-bottom: 0;
+}
+
+.dian ul li {
+    float: left;
+    width: .15rem;
+    height: .15rem;
+    margin: .1rem;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.mian {
+    margin-top: .3rem;
+    font-size: .53rem;
+    height: .8rem;
+}
+
+.m-nav {
+    position: relative;
+    height: 1.8rem;
+    width: 100%;
+}
+
+.frame {
+    /* margin: 0 10px; */
+    height: 100%;
+    /* padding-right: .6666666666666666rem; */
+    /* background-color: #00a0e9 */
+}
+
+.nav-box {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav-box .current {
+    /* width:.5rem; */
+    /* margin:0 auto; */
+    background-color: #003a9b;
+    border-radius: .13rem;
+}
+
+.nav-box .current a {
+    color: #fff;
+}
+
+.m-nav ul {
+    position: relative;
+    left: 0;
+    margin: 0.5rem 0;
+    padding: 0;
+    list-style: none;
+    width: 28.333333333333334rem;
+    height: 56%;
+    overflow: hidden;
+}
+
+.m-nav li {
+    float: left;
+    margin: 0;
+    width: 1.rem;
+    height: 1rem;
+    line-height: 1rem;
+    background-color: #fddf00;
+    margin-right: .2rem;
+    border-radius: .13333333333333333rem;
+    text-align: center;
+    padding: 0 .2rem;
+}
+
+.m-nav li a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    font-size: .4rem;
+}
+
+.search {
+    position: relative;
+    height: 1.3rem;
+    border-bottom: .013333333333333334rem solid #ccc;
+}
+
+.search button:nth-child(1) {
+    position: absolute;
+    top: 40%;
+    right: 1.8rem;
+    font-size: .4rem;
+    border: 0;
+    background-color: #fff;
+}
+
+.search button:nth-child(2) {
+    position: absolute;
+    top: 40%;
+    right: 0.6rem;
+    font-size: .4rem;
+    border: 0;
+    background-color: #fff;
+}
+
+.price_top {
+    margin-top: .06666666666666667rem;
+}
+
+.price_down {
+    margin-bottom: .06666666666666667rem;
+}
+
+.price_top img {
+    position: absolute;
+    top: 40%;
+    right: 0.17rem;
+    height: 18%;
+}
+
+.price_down img {
+    position: absolute;
+    top: 60%;
+    right: 0.15rem;
+    height: 18%;
+}
+
+.zhanshi_mx ul {
+    width: 120%;
+}
+
+.zhanshi_mx li {
+    float: left;
+    margin-top: .6rem;
+    width: 40%;
+    margin-right: .3rem;
+    border: .013333333333333334rem solid #e7e7e7;
+    border-radius: .13333333333333333rem;
+}
+
+.ma_top {
+    overflow: hidden;
+}
+
+.ma_top img {
+    width: 100%;
+}
+
+.ben {
+    position: relative;
+    width: .6rem;
+    height: .6rem;
+}
+
+.ben img {
+    position: absolute;
+    width: 100%;
+}
+
+.ma_bottom {
+    padding: 0 .3rem;
+}
+
+.ma_bottom p {
+    font-size: .4rem;
+}
+
+.car {
+    position: relative;
+}
+
+.ma_bottom .car em {
+    font-size: .4rem;
+    color: #e4007b;
+}
+
+.car img {
+    position: absolute;
+    top: .26666666666666666rem;
+    right: 0;
+    height: 60%;
+}

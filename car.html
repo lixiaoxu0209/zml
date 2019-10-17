@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/car.css">
+
+    <!-- 引入我们的flexible.js 文件 -->
+    <script src="js/flexible.js"></script>
+    <!-- <script src="js/EasyLazyload.min.js"></script> -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/car.js"></script>
+    <script src="js/delete.js"></script>
+    <title>购物车</title>
+</head>
+
+<body>
+    <div class="top_tkq">
+        <div class="one_tkq">编辑</div>
+        <div class="two_tkq">
+            购物车
+            <span>ショッピング？カー</span>
+        </div>
+    </div>
+    <div class="zong_tkq">
+        <div class="check_tkq">
+            <input type="checkbox" name="" id="" class="checkall">
+
+            <!-- <img src="images/check2.png" class="check_all"> -->
+            <span>全选</span>
+        </div>
+        <div class="qian">
+            <div class="total_tkq">
+                合计:
+                <span class="price_tkq"><i>￥</i><b>13424.21</b></span>
+            </div>
+            <div class="paidan_tkq">
+                生成拍单
+            </div>
+            <div class="jiesuan_tkq">
+                结算(<span>1</span>)
+            </div>
+        </div>
+        <div class="hou">
+            <div class="shanchu_tkq">
+                删除
+            </div>
+        </div>
+    </div>
+    <div class="big_order">
+        <div class="order_tkq_one dian">
+            <div class="order_hd_tkq clearfix">
+                <div class="dian_tkq ">
+                    <input type="checkbox" name="" id="dian_one" class="dian_img">
+                    <!-- <img src="images/check2.png" class="dian_img" id="dian_one">  -->
+                    Dior专营店
+                </div>
+                <div class="quan_tkq">领券</div>
+            </div>
+            <div class="order_body_tkq">
+                <div class="orders order_one move_left" id="" clearfix>
+                    <input type="checkbox" name="" class="jcheckbox" id="oneProduct">
+                    <!-- <img src="images/check2.png" class="l_check"> -->
+                    <img src="images/shangpin1.png" class="tu_tkq">
+                    <div class="message_tkq">
+                        <div class="message_h">
+                            <div class="tubiao_tkq"><img src="images/tubiao.png"></div>
+                            <span class="title_tkq">HITACHICM-N400美容仪</span>
+                        </div>
+                        <span class="price_yin">￥888</span>
+                        <span class="price_x">￥888.00</span>
+                        <div class="choose_tkq">
+                            <a href="javascript:;" class="reduce_tkq">-</a>
+                            <input type="text" value="1" class="itxt">
+                            <a href="javascript:;" class="add_tkq">+</a>
+                        </div>
+                        <div class="p_delete">删除</div>
+                    </div>
+                </div>
+                <div class="orders order_two move_left">
+                    <input type="checkbox" name="" class="jcheckbox" id="twoProduct">
+                    <!-- <img src="images/check1.png" class="l_check"> -->
+                    <img src="images/shangpin2.png" class="tu_tkq">
+                    <div class="message_tkq">
+                        <div class="message_h">
+                            <div class="tubiao_tkq"><img src="images/tubiao.png"></div>
+                            <span class="title_tkq">HITACHICM-N400美容仪</span>
+                        </div>
+                        <span class="price_yin">￥888</span>
+                        <span class="price_x">￥888.00</span>
+                        <div class="choose_tkq">
+                            <a href="javascript:;" class="reduce_tkq">-</a>
+                            <input type="text" value="1" class="itxt">
+                            <a href="javascript:;" class="add_tkq">+</a>
+                        </div>
+
+                        <div class="p_delete">删除</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="order_tkq_two dian">
+            <div class="order_hd_tkq ">
+                <div class="dian_tkq ">
+                    <input type="checkbox" name="" id="dian_two" class="dian_img"> Dior专营店
+                </div>
+                <div class="quan_tkq">领券</div>
+            </div>
+            <div class="order_body_tkq">
+                <div class="orders order_one move_left">
+                    <input type="checkbox" name="" class="jcheckbox" id="threeProduct">
+
+                    <img src="images/shangpin3.png" class="tu_tkq">
+                    <div class="message_tkq clearfix">
+                        <div class="message_h">
+                            <div class="tubiao_tkq"><img src="images/tubiao.png"></div>
+                            <span class="title_tkq">HITACHICM-N400美容仪</span>
+                        </div>
+                        <span class="price_yin">￥888.00</span>
+                        <span class="price_x">￥888.00</span>
+                        <div class="choose_tkq">
+                            <a href="javascript:;" class="reduce_tkq">-</a>
+                            <input type="text" value="1" class="itxt">
+                            <a href="javascript:;" class="add_tkq">+</a>
+                        </div>
+                        <div class="p_delete">删除</div>
+                    </div>
+                </div>
+                <div class="orders order_two move_left">
+                    <input type="checkbox" name="" class="jcheckbox" id="fourProduct">
+
+                    <img src="images/shangpin1.png" class="tu_tkq">
+                    <div class="message_tkq">
+                        <div class="message_h">
+                            <div class="tubiao_tkq"><img src="images/tubiao.png"></div>
+                            <span class="title_tkq">HITACHICM-N400美容仪</span>
+                        </div>
+                        <span class="price_yin">￥888.00</span>
+                        <span class="price_x">￥888.00</span>
+                        <div class="choose_tkq">
+                            <a href="javascript:;" class="reduce_tkq">-</a>
+                            <input type="text" value="1" class="itxt">
+                            <a href="javascript:;" class="add_tkq">+</a>
+                        </div>
+                        <div class="p_delete">删除</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" class="index_ico">
+
+                </a>
+            </li>
+            <li>
+                <a href="demo-mxx.html" class="fenlei_ico">
+
+                </a>
+            </li>
+            <li>
+                <a href="luxing.html">
+                    <div class="home"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="cart_ico">
+
+                </a>
+            </li>
+            <li>
+                <a href="demo.html" class="mine_ico">
+
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+
+</html>

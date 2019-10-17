@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的评论</title>
+    <link rel="stylesheet" href=" css/normalize.css">
+    <link rel="stylesheet" href=" css/myappraise.css">
+    <script src=" js/flexible.js"></script>
+    <script src=" js/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- 左侧箭头 -->
+    <div class="myapp_top">
+        <div class="myapp_jt">
+            <a href="Submit evaluation.html">
+                <img src="images/fh.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="myapp_text">
+        <p>我的评价</p>
+    </div>
+    <div class="myapp_cnt">
+        <div class="myapp_bd">
+            <div class="myapp_a">
+                <div class="Jap">
+                    <img src="images/Bitmap Copy.png" alt="">
+                </div>
+                <div class="rightt">
+                    <img src="images/Group 2.png" alt="">
+                    <p>HITACHICM-N400美容仪</p>
+                </div>
+            </div>
+        </div>
+        <!-- 下划线1 -->
+        <div class="xian1"></div>
+        <div class="myapp_texts">
+            <p>还不错，一直在使用这个牌子的眼药水</p>
+        </div>
+        <!-- 下划线2 -->
+        <div class="xian2"></div>
+        <div class="myapp_clear">
+            <a href="javascript:;">删除</a>
+            <img src="images/Oval 25.png" alt="">
+        </div>
+    </div>
+    <script>
+        $(function() {
+            $(".myapp_clear a").click(function() {
+                $(this).parents(".myapp_cnt").remove();
+            })
+        })
+    </script>
+</body>
+
+</html>

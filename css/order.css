@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 320px;
+    max-width: 750px;
+    /* flexible 给我们划分了 10 等份 */
+    width: 10rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* 如果我们的屏幕超过了 750px  那么我们就按照 750设计稿来走 不会让我们页面超过750px */
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+.order_top {
+    width: 10rem;
+    height: 1.333333rem;
+}
+
+.order_jt {
+    position: fixed;
+    width: 10rem;
+    height: .52rem;
+    padding-top: .84rem;
+}
+
+.order_top a img {
+    display: block;
+    margin-left: .52rem;
+    width: .32rem;
+    height: .52rem;
+}
+
+.tab_list {
+    width: 9.04rem;
+    height: 1.733333rem;
+    margin-left: .52rem;
+    margin-right: .44rem;
+}
+
+.tab_list li {
+    float: left;
+    margin-right: .533333rem;
+    text-align: center;
+    line-height: 1.733333rem;
+    vertical-align: middle;
+}
+
+.tab_list li:last-child {
+    margin: 0;
+}
+
+.tab_list li a {
+    font-size: .293333rem;
+    color: #757575;
+}
+
+.tab_list .current {
+    position: relative;
+}
+
+.tab_list .current a {
+    font-size: .533333rem;
+    color: #333;
+}
+
+.tab_list .current::before {
+    content: "";
+    position: absolute;
+    bottom: .466667rem;
+    /* left: .4rem; */
+    left: 0;
+    right: 0;
+    width: .4rem;
+    margin: 0 auto;
+    height: .133333rem;
+    background-color: yellow;
+    border: .013333rem solid #333;
+    border-radius: .133333rem;
+}
+
+.tab_item_one {
+    width: 9.066667rem;
+    height: 6.533333rem;
+    border: .013333rem solid #ccc;
+    border-radius: .266667rem;
+    /*margin-left: .52rem;
+    margin-right: .44rem;
+    margin-bottom: .266667rem;*/
+    margin: 0 auto .266667rem;
+}
+
+.tab_item_hd {
+    margin: .44rem .6rem;
+    height: .426667rem;
+}
+
+.tab_item_hd p {
+    float: left;
+    font-size: .426667rem;
+    line-height: .426667rem;
+}
+
+.tab_item_hd a {
+    float: right;
+    font-size: .32rem;
+    line-height: .426667rem;
+    color: #e50880;
+}
+
+.tab_item_img {
+    margin-left: .6rem;
+    overflow: hidden;
+}
+
+.tab_item_img img {
+    float: left;
+}
+
+.tab_item_img a:nth-child(-n+3) img {
+    display: block;
+    width: 1.866667rem;
+    height: 1.866667rem;
+    margin-right: .253333rem;
+}
+
+.tab_item_img a:nth-child(4) img {
+    display: block;
+    width: .16rem;
+    height: .306667rem;
+    margin: .773333rem .586667rem .8rem 1.32rem;
+}
+
+.tab_item_price {
+    overflow: hidden;
+    margin-top: .933333rem;
+    margin-left: .6rem;
+    padding-bottom: .533333rem;
+}
+
+.tab_item_price>span {
+    float: left;
+    color: #666;
+    font-size: .32rem;
+}
+
+.tab_item_price .num {
+    float: left;
+    color: #e4007b;
+    font-weight: 700;
+    font-size: .266667rem;
+}
+
+.tab_item_price .num span {
+    font-size: .333333rem;
+}
+
+.tab_item_price .num em {
+    font-style: normal;
+    font-size: .266667rem;
+}
+
+.xiahuaxian {
+    border-bottom: 1px solid #f7f7f7;
+    width: 8.906667rem;
+    margin-left: .106667rem;
+}
+
+.tab_item_pay a {
+    float: right;
+    width: 1.933333rem;
+    height: .8rem;
+    border: .013333rem solid #e7e7e7;
+    border-radius: .4rem;
+    font-size: .32rem;
+    line-height: .8rem;
+    text-align: center;
+    margin-right: .266667rem;
+    margin-top: .36rem;
+    color: #333
+}
+
+.tab_item_pay {
+    overflow: hidden;
+}
+
+.tab_item_pay .payfor {
+    background-color: #fddf00;
+}
+
+.tab_item {
+    display: none;
+}
+
+.bot .apply {
+    float: left;
+    background-color: #003a9b;
+    margin-left: .533333rem;
+    color: #fff;
+}
+
+.bot a:last-child {
+    color: #999;
+}
+
+.hui {
+    color: #999!important;
+}
+
+.jj {
+    height: 5.133333rem!important;
+}
